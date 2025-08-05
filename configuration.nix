@@ -106,11 +106,13 @@ nerd-fonts.jetbrains-mono
 ];
 
 
+
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
 vim
 wget
+networkmanagerapplet
 wl-color-picker
 neovim
 brave
@@ -122,6 +124,12 @@ swww
 brightnessctl
 waybar
 rofi
+grim
+slurp
+git
+gtk4
+gtk3
+nwg-look
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
