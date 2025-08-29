@@ -66,18 +66,6 @@
     packages = with pkgs; [];
   };
 
-
-#  hardware.bluetooth = {
-#   enable = true;
-#   powerOnBoot = true;
-#   settings = {
-#    General = {
-#      Experimental = true;
-#	   }
-#	};
-#      };
-  
-
   
   #blueman
   services.blueman.enable = true;
